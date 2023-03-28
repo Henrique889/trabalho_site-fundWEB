@@ -22,7 +22,7 @@ header{
 }
 
 .menu{
-    padding-top: 30px;
+    padding-top: 17px;
     width: 50%;
     text-align: right;
     color: blue;
@@ -40,7 +40,7 @@ header{
     font-weight: bold;
   }
 
-  .single-page-title {
+  .fundo-da-pagina {
     background: url(../img/fundo\ home.jpg) no-repeat bottom;
     background-size: cover;
     width: 100%;
@@ -49,7 +49,7 @@ header{
     position: relative;
     }
 
-.single-page-title::before{
+.fundo-da-pagina::before{
     position: absolute;
     content: "";
     top:0;
@@ -59,16 +59,16 @@ header{
     background: rgba(0,0,0,.7);
     }
 
-.single-page-title h2 {
-    display        : inline-block;
-    font-size      : 60px;
+.fundo-da-pagina h2 {
+    display        : flex;
+    font-size      : 50px;
     text-transform : uppercase;
     font-weight    : 700;
     margin-bottom  : 0;
     color          : #fff;
     position: relative;
     z-index: 1;
-    padding-left: 180px;
+    justify-content: center;
     }
 
 .div-em-colunas{
@@ -78,3 +78,44 @@ header{
     -moz-column-count:2;   
     column-count:2; 
 }
+
+.container {
+    padding: 0 100px;
+  }
+  
+  .container-main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .coluna-esquerda {
+    flex-basis: 50%;
+    padding: 20px;
+    padding-top: 25px;
+  }
+    
+  .coluna-direita {
+    flex-basis: 50%;
+    padding: 20px;
+    padding-top: 25px;
+  }
+  
+  .primeira-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+    
+  .segunda-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+  
+  .terceira-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+  
+  .quarta-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
