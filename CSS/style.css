@@ -141,4 +141,56 @@ header{
     color: white;
     margin-top: 40px;
   }
+
+  .iframe-google{
+    padding-top: 60px;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
   
+  input{
+    width: 70%;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-left: 12%;
+    padding: 16px 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  textarea{
+    width: 70%;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-left: 12%;
+    padding: 16px 16px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+
+  input:focus-within{
+    outline: none;
+    border-width: 3px;
+
+  }
+
+  textarea:focus-within{
+    outline: none;
+    border-width: 3px;
+    
+  }
+
+  button{
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+  }
+
+  button:hover{
+    opacity: 80%;
+    cursor: pointer;
+  }
