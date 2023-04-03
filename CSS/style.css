@@ -83,10 +83,17 @@ header{
     padding: 0 100px;
   }
   
-  .container-main {
+.container-main {
     display: flex;
     flex-direction: row;
-  }
+}
+
+.container-main-2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20%;
+  padding-right: 20%;
+}
   
   .iframe-google {
     flex-basis: 50%;
@@ -194,3 +201,30 @@ header{
     opacity: 80%;
     cursor: pointer;
   }
+
+  table {
+    border-collapse: collapse;
+    margin-left: 17%;
+    margin-right: 21%;
+    margin-top: 2%;
+    width: 65%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    background-color:#edededd5;
+    text-align: center;
+    padding: 5px;
+    /* background-color: #04AA6D; */
+    color: black;
+  }
+
+  th {
+    background-color: #1d6094;
+    color: white;
+  }
+
+  tr:hover {background-color: rgb(23, 174, 255);}
+
+  video{
+    margin-left: 22.5%;
+}
